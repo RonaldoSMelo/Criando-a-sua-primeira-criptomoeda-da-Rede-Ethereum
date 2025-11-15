@@ -1,0 +1,34 @@
+{
+  "name": "minha-primeira-criptomoeda",
+  "version": "1.0.0",
+  "description": "Projeto para criar a primeira criptomoeda na rede Ethereum usando padrão ERC-20",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "migrate:reset": "truffle migrate --reset",
+    "migrate:cli": "truffle migrate --network ganacheCli",
+    "migrate:cli:reset": "truffle migrate --reset --network ganacheCli",
+    "test": "truffle test",
+    "test:cli": "truffle test --network ganacheCli",
+    "console": "truffle console",
+    "console:cli": "truffle console --network ganacheCli"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "erc20",
+    "token",
+    "solidity",
+    "truffle"
+  ],
+  "author": "Ronaldo Melo",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}
+
